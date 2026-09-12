@@ -1,15 +1,46 @@
 .container {
+    
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
     height: 100vh;
     background-color: #f0f0f0;
+    background-image: linear-gradient(#00565c, #00565c, #00565c)
+                           
 }
 .card {
+    
     background-color: #fff;
-    padding: 20px;
-    border-radius: 8px;
+    padding: 30px;
+    border-radius: 20px;
     box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
     height: 100px ;
+    padding-bottom: 120px;
+    text-align: center;
+    font-size: 30px;
+    
+    
 }
+button {
+    background-color: #22bec9;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 10px;
+    cursor: pointer;
+    
+} 
+input[type="text"] {
+    padding: 10px;
+    border-radius: 10px;
+    border: 1px solid #ccc;
+    width: 200px;
+    margin-bottom: 20px;
+}
+label {
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+
